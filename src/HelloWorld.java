@@ -40,4 +40,16 @@ Some data types are keywords in Java.
 
 int myFirstNumber = 5;
 
+3. Expressions
+
+What is an expression?
+
+An expression is a coding construct, that evaluates to a single value.
+
+Variable challenge, print myFirstNumber.
+
+myFirstNumber = 5;
+System.out.print(myFirstNumber);
+
  */
+
