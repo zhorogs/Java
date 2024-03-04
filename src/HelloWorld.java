@@ -51,5 +51,21 @@ Variable challenge, print myFirstNumber.
 myFirstNumber = 5;
 System.out.print(myFirstNumber);
 
+myFirstNumber = 10;
+System.out.print(myFirstNumber);
+
+myFirstNumber = 1000;
+System.out.print(myFirstNumber);
+
+This is allowed within JShell, but a java compiler or any IDE wouldn't allow this.
+
+myFirstNumber = 10 + 5;
+
+myFirstNumber = (10 + 5) + (2 * 10);
+
+The expression is the code segment that is on the right side of the equals sign in an assignment or declaration statement.
+
+
+
  */
 
