@@ -136,6 +136,35 @@ We get this since the max is 214748367.
 
 In Java, you cannot put commas in a numeric literal, we can use "_".
 
+2_147_483_67
+
+6. Whole numbers
+
+Byte, short, int, long
+
+byte range (-128, 127)
+
+short range (-32768, 32767)
+
+Size, or Width, is the amount of space that determines (or limits) the range of values.
+
+A byte, can store 256 numbers and occupies eight bits, and has a width of 8.
+A short, can store a large range of numbers and occupies 16 bits, and has a width of 8.
+
+long myLongValue = 100;
+
+Really an int.
+
+long myLongValue = 100L;
+
+Suffix for long numbers. - L
+
+System.out.print(" Along has a width of " + Long.size);
+
+A numeric literal that exceeds Integer.MAX_VALUE must use the "L" suffix.
+
+We cannot create a number literal in Java, that exceeds Integer.MAX_VALUE, without using the "L" suffix.
+
 
 
  */
