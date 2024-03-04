@@ -83,5 +83,60 @@ Create a new variable and call it myLastOne, with data type of int, set to 1000 
 
 int myLastOne = 1000;
 System.out.print(myLastOne - myTotal);
+
+4. Primitive data types
+
+Primitive data types are the most basic data types.
+
+Whole numbers - byte, short, int, long
+
+Real numbers - float, double
+
+Single Character - char
+
+Boolean value - boolean
+
+We should consider these types as the building blocks of data manipulation.
+
+Primitive data types are simply placeholders in memory for a value.
+
+What is integer?
+
+Integer is a whole number, meaning it does not contain a fractional element or a decimal.
+
+Consider valid ranges as well.
+
+int myMinIntValue = Integer.MIN_VALUE;
+int myMaxIntValue = Integer.MAX_VALUE;
+
+System.out.print("Integer Minimum Value = " + myMinIntValue);
+System.out.print("Integer Minimum Value = " + Integer.MIN_VALUE);
+
+The plus sign, +, when used in System.out.print will print different data types together as a single line of text.
+
+System.out.print (" Integer Value Range (" + Integer.MIN_VALUE + " to " + Integer.MAX_VALUE + ")" );
+
+5. Classes
+
+What is a class?
+
+It's a template used to create objects and to define object data types and methods.
+
+Java uses the concept of a wrapper class, for all of its eight primitive data types.
+
+System.out.print("Busted Max value = " + (myMaxIntValue + 1));
+
+Java overflows and underflows.
+
+int myMaxIntTest = 214748368
+Error:
+integer number too large
+
+We get this since the max is 214748367.
+
+In Java, you cannot put commas in a numeric literal, we can use "_".
+
+
+
  */
 
