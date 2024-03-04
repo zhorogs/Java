@@ -65,7 +65,23 @@ myFirstNumber = (10 + 5) + (2 * 10);
 
 The expression is the code segment that is on the right side of the equals sign in an assignment or declaration statement.
 
+Challenge:
+Create 2 variables, mySecondNumber with a value of 12, myThirdNumber with a value of 6.
 
+int mySecondNumber = 12;
+int myThirdNumber = 6;
 
+/var JShell will show all created variables in the session.
+
+int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+
+myThirdNumber = myFirstNumber * 2;
+
+Challenge:
+
+Create a new variable and call it myLastOne, with data type of int, set to 1000 - myTotal variable. Print the value of it.
+
+int myLastOne = 1000;
+System.out.print(myLastOne - myTotal);
  */
 
