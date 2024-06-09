@@ -165,7 +165,5 @@ A numeric literal that exceeds Integer.MAX_VALUE must use the "L" suffix.
 
 We cannot create a number literal in Java, that exceeds Integer.MAX_VALUE, without using the "L" suffix.
 
-
-
  */
 
