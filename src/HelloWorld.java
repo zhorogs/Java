@@ -171,6 +171,7 @@ We cannot create a number literal in Java, that exceeds Integer.MAX_VALUE, witho
 
 //declare and initialise the variable in the same line;
 
+/*
 short myMinShortValue = Short.MIN_VALUE;
 int myMinIntValue = Integer.MIN_VALUE;
 
@@ -185,7 +186,26 @@ byte myMinBiteValue = Byte.MIN_VALUE, myMaxByteValue = Byte.MAX_VALUE;
 // short firstShort = 1; int firstInteger = 2;
 // correct, doesnt give an error;
 
+int myTotal = (myMinIntValue /2);
+byte myNewByteValue = (myMinBiteValue /2);
+//error;
+//the java compiler does not attempt to evaluate the value, in a variable,
+//when it's used in a calculation, so it doesnt know if the value fits, and throws an error.
 
+//if your calculation uses literal values, java can figure out the end result at compile time, and whether it fits into the variable,
+//and won't throw an error if it does;
 
+//in both examples, an int result is being returned from calculation, but in the second example,
+//java knows the returned value can fit into a byte.
 
+//casting, means to treat or convert a number, from one type to another.
+//we put the type we want the number to be, in parentheses like this:
+//(byte) (myMinByteValue /2);
 
+//other languages have casting too, common practice and not a java thing.
+
+byte myNewByteValue = (byte) (myMinBiteValue /2);
+//treating as a byte, instead as na int, which is by default;
+
+short myNewShortValue = (short) (myMinShortValue /2);
+ */;
