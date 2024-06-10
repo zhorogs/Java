@@ -209,3 +209,19 @@ byte myNewByteValue = (byte) (myMinBiteValue /2);
 
 short myNewShortValue = (short) (myMinShortValue /2);
  */;
+
+ /* java challenge 1 */
+
+/*
+jshell> byte myByte = 127
+myByte ==> 127
+
+jshell> short myShort = 30000
+myShort ==> 30000
+
+jshell> int myInt = 200000
+myInt ==> 200000
+
+jshell> long myLong = myByte + myShort + myInt
+myLong ==> 230127
+ */
