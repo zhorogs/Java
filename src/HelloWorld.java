@@ -167,3 +167,25 @@ We cannot create a number literal in Java, that exceeds Integer.MAX_VALUE, witho
 
  */
 
+/* Casting in Java */
+
+//declare and initialise the variable in the same line;
+
+short myMinShortValue = Short.MIN_VALUE;
+int myMinIntValue = Integer.MIN_VALUE;
+
+byte myMinBiteValue = Byte.MIN_VALUE, myMaxByteValue = Byte.MAX_VALUE;
+
+// you cannot declare variables with different data types in a single statement;
+// if you declare multiple variables of the same data type in a single statement,
+// you must specify the data type only once before any variable names;
+
+// short firstShort = 1, int firstInteger =2;
+// gives an error
+// short firstShort = 1; int firstInteger = 2;
+// correct, doesnt give an error;
+
+
+
+
+
